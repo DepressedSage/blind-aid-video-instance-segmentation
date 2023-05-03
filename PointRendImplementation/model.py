@@ -44,6 +44,5 @@ class PointRend(nn.Module):
 
         out = self.conv_out(out)
         out = F.relu(out, inplace=True)
-
         return out
 
