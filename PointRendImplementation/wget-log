@@ -1,26 +1,0 @@
---2023-05-01 21:22:04--  https://www.cityscapes-dataset.com/file-handling/?packageID=3
-Loaded CA certificate '/etc/ssl/certs/ca-certificates.crt'
-Resolving www.cityscapes-dataset.com (www.cityscapes-dataset.com)... 139.19.217.8
-Connecting to www.cityscapes-dataset.com (www.cityscapes-dataset.com)|139.19.217.8|:443... connected.
-HTTP request sent, awaiting response... 200 OK
-Length: 11592327197 (11G) [application/octet-stream]
-Saving to: ‘leftImg8bit_trainvaltest.zip’
-
-leftImg8bit_trainvaltest.zip                     0%[                                                                                                     ]   3.31M  --.-KB/s    eta 2041d  leftImg8bit_trainvaltest.zip                     0%[                                                                                                     ]   3.31M  --.-KB/s    in 14h 41m 
-
-2023-05-03 20:34:49 (65.7 B/s) - Read error at byte 3473408/11592327197 (Connection timed out). Retrying.
-
---2023-05-03 20:34:50--  (try: 2)  https://www.cityscapes-dataset.com/file-handling/?packageID=3
-Connecting to www.cityscapes-dataset.com (www.cityscapes-dataset.com)|139.19.217.8|:443... connected.
-HTTP request sent, awaiting response... 302 Found
-Location: https://www.cityscapes-dataset.com/login/ [following]
---2023-05-03 20:34:52--  https://www.cityscapes-dataset.com/login/
-Reusing existing connection to www.cityscapes-dataset.com:443.
-HTTP request sent, awaiting response... 200 OK
-Length: unspecified [text/html]
-Saving to: ‘index.html.1’
-
-     0K .......... .......... ......                            141K=0.2s
-
-2023-05-03 20:34:52 (141 KB/s) - ‘index.html.1’ saved [26651]
-
