@@ -34,11 +34,11 @@ transform_val_test = transforms.Compose([
 ])
 
 # Define dataset paths
-train_set = Cityscapes(root=root_filename, split='train', mode='fine', target_type='semantic', target_transform = target_transform,transform=transform_train)
+train_set = Cityscapes(root=root_filename, split='train', mode='fine', target_type='instance', target_transform = target_transform,transform=transform_train)
 print("Training Dataset has been loaded...")
-test_set = Cityscapes(root=root_filename, split='test', mode='fine', target_type='semantic',target_transform = target_transform, transform=transform_val_test)
+test_set = Cityscapes(root=root_filename, split='test', mode='fine', target_type='instance',target_transform = target_transform, transform=transform_val_test)
 print("Test Dataset has been loaded...")
-val_set = Cityscapes(root=root_filename, split='val', mode='fine', target_type='semantic',target_transform = target_transform, transform=transform_val_test)
+val_set = Cityscapes(root=root_filename, split='val', mode='fine', target_type='instance',target_transform = target_transform, transform=transform_val_test)
 print("Validation Dataset has been loaded...")
 
 
